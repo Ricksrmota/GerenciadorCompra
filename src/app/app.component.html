@@ -1,6 +1,7 @@
+
 <nav class="navbar fixed-top navbar-dark navbar-expand-lg " style="background-color: #a80000;">
     <div class="container">
-        <a class="navbar-brand" routerLink="/">Gerenciador Escolar</a>
+        <a class="navbar-brand" routerLink="/">LogoMarca</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
             aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -9,13 +10,13 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item">
-                    <a class="nav-link" routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">Home</a>
+                    <a class="nav-link" routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">Inicio</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" routerLink="/disciplinas" routerLinkActive="active">Disciplinas</a>
+                    <a class="nav-link" routerLink="/turmas" routerLinkActive="active">Carrinho</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" routerLink="/turmas" routerLinkActive="active">Turmas</a>
+                    <a class="nav-link" routerLink="/disciplinas" routerLinkActive="active">Acessar</a>
                 </li>
             </ul>
             <div class="navbar-text">
@@ -25,12 +26,18 @@
     </div>
 </nav>
 
+
+
+<body>
 <div id="page" class="container">
 
     <router-outlet></router-outlet>
 
     <hr>
     <footer>
-        <small>Gerenciador Escolar (copyleft) 2017</small>
+        <small>Gerenciador de Vendas (copyleft) 2018</small>
     </footer>
+
 </div>
+
+</body>
